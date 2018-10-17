@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Interface
+﻿namespace Interface
 {
-    interface INotifyObject
+    public interface INotifyObject
     {
+        public int void(int minutes, int seconds);
     }
 }
