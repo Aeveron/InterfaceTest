@@ -1,8 +1,9 @@
 ﻿using System;
+using PomodoroEngine;
 
 namespace Interface
 {
-   public class Program : INotifyObject, PomodoroEngine.INotifyObject
+   public class Program : INotifyObject
    {
         static void Main(string[] args)
         {
@@ -13,7 +14,7 @@ namespace Interface
 
         public Program()
         {
-            var pomodoro = new PomodoroEngine.Pomodoro(this, 1);
+            var pomodoro = new Pomodoro(this, 1);
             pomodoro.Start();
         }
 
