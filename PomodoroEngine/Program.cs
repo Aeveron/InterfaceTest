@@ -1,9 +1,10 @@
 ﻿using System;
+using PomodoroEngine;
 
-namespace Interface
+namespace Pomodoro
 {
-   public class Program : INotifyObject, PomodoroEngine.INotifyObject
-   {
+   public class Program : INotifyObject
+    {
         static void Main(string[] args)
         {
             var program = new Program();
