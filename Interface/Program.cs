@@ -13,7 +13,7 @@ namespace Interface
 
         public Program()
         {
-            var pomodoro = new PomodoroEngine.Pomodoro(this, 1);
+            var pomodoro = new Pomodoro(this, 1);
             pomodoro.Start();
         }
 

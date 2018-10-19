@@ -1,5 +1,6 @@
-﻿using System.Threading;
+﻿using System.Timers;
 using Microsoft.Win32;
+using Timer = System.Threading.Timer;
 
 namespace Interface
 {
@@ -18,7 +19,7 @@ namespace Interface
             Reset();
         }
 
-        public void TimerElapsed(object sender, TimerElapsedEventArgs e)
+        public void TimerElapsed(object sender, ElapsedEventArgs e)
         {
             _timeLeftInSeconds--;
             var minutes = _timeLeftInSeconds / 60;
