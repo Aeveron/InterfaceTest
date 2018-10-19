@@ -1,6 +1,5 @@
 ﻿using System.Timers;
-using Microsoft.Win32;
-using Timer = System.Threading.Timer;
+
 
 namespace Interface
 {
